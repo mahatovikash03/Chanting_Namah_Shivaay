@@ -29,6 +29,8 @@ function App() {
         </p>
       </div>
       <br />
+      <p><b>Change Your Background-Color</b></p>
+      <p><b>Choose from the available colors below to enhance your experience.</b></p>
       <div className="color-footer">
         <div className="box" onClick={() => changeBackground("#FF0000")}>Red</div>
         <div className="box" onClick={() => changeBackground("#00D4FF")}>Blue</div>
